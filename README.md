@@ -1,13 +1,17 @@
 Estructuras de Datos
 ====================
 
-Práctica 10: Diccionarios
--------------------------
+Práctica 11: Conjuntos
+----------------------
 
-### Fecha de entrega: martes 23 de mayo, 2023
+### Fecha de entrega: martes 30 de mayo, 2023
 
-Deben completar los métodos estáticos de la clase
-[`Diccionario`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica10/-/blob/main/src/main/java/mx/unam/ciencias/edd/Diccionario.java).
+Deben completar los métodos de la clase
+[`Diccionario`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11/-/blob/main/src/main/java/mx/unam/ciencias/edd/Diccionario.java).
+
+Además, deben convertir la clase
+[`Grafica`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11/-/blob/main/src/main/java/mx/unam/ciencias/edd/Grafica.java)
+a que utilice diccionarios de adyacencias en lugar de listas de adyacencias.
 
 Una vez que hayan terminado sus clases, la práctica debe compilar al hacer:
 
@@ -22,14 +26,16 @@ $ mvn test
 ```
 
 Y por último, debe correr correctamente el programa escrito en la clase
-[`Practica10`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica10/-/blob/main/src/main/java/mx/unam/ciencias/edd/Practica10.java)
+[`Practica11`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11/-/blob/main/src/main/java/mx/unam/ciencias/edd/Practica11.java)
 al ejecutar:
 
 ```
 $ mvn install
 ...
-$ java -jar target/practica10.jar
+$ java -jar target/practica11.jar N
 ```
+
+Donde `N` es un número entero.
 
 Los únicos archivos que deben modificar son:
 
@@ -40,6 +46,7 @@ Los únicos archivos que deben modificar son:
 * `ArbolRojinegro.java`,
 * `Arreglos.java`,
 * `Cola.java`,
+* `Conjunto.java`,
 * `Diccionario.java`,
 * `Dispersores.java`,
 * `Grafica.java`,
@@ -58,7 +65,7 @@ práctica*.
 Pueden clonar la práctica con el siguiente comando:
 
 ```
-$ git clone https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica10.git
+$ git clone https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11.git
 ```
 
 ### Documentación
@@ -66,7 +73,7 @@ $ git clone https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica10.git
 La documentación generada por JavaDoc la pueden consultar aquí:
 
 [Documentación generada por JavaDoc para la práctica
-10](https://aztlan.fciencias.unam.mx/~canek/2023-2-edd/practica10/apidocs/index.html)
+11](https://aztlan.fciencias.unam.mx/~canek/2023-2-edd/practica11/apidocs/index.html)
 
 ### Capítulos del libro
 
@@ -74,4 +81,5 @@ Los capítulos [del
 libro](https://tienda.fciencias.unam.mx/es/home/437-estructuras-de-datos-con-java-moderno-9786073009157.html)
 relacionados a esta práctica son:
 
-21. Diccionarios
+22. Conjuntos
+23. Mejorando gráficas
