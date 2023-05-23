@@ -7,7 +7,7 @@ Práctica 11: Conjuntos
 ### Fecha de entrega: martes 30 de mayo, 2023
 
 Deben completar los métodos de la clase
-[`Diccionario`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11/-/blob/main/src/main/java/mx/unam/ciencias/edd/Diccionario.java).
+[`Conjunto`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11/-/blob/main/src/main/java/mx/unam/ciencias/edd/Conjunto.java).
 
 Además, deben convertir la clase
 [`Grafica`](https://aztlan.fciencias.unam.mx/gitlab/2023-2-edd/practica11/-/blob/main/src/main/java/mx/unam/ciencias/edd/Grafica.java)
